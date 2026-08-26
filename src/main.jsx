@@ -11,36 +11,43 @@ const links = {
 };
 
 const projects = [
-  {
-    title: "OneBox",
-    label: "AI / Full Stack",
-    description:
-      "An AI-powered email management platform that brings multiple inbox workflows into one place with smart organization and automation.",
-    points: [
-      "Built a unified inbox experience for managing email conversations efficiently",
-      "Implemented AI-assisted email categorization and organization",
-      "Added secure authentication and backend API workflows",
-      "Focused on responsive UI and smooth user experience",
-    ],
-    stack: ["Node.js", "Express.js", "OpenAI", "IMAP", "Bootstrap 5", "JavaScript", "MongoDB"],
-    href: "https://github.com/Ashwitha12-star/email-onebox",
-    linkText: "View on GitHub",
-  },
-  {
-    title: "AI Voice Collections Assistant",
-    label: "AI / Full Stack",
-    description:
-      "An AI-powered voice collections assistant designed for compliant outbound customer conversations with a professional and respectful workflow.",
-    points: [
-      "Customer verification and debt-disclosure protection",
-      "Promise-to-Pay handling and payment-link triggering",
-      "Escalation and disposition tracking",
-      "Multilingual support for collection scenarios",
-    ],
-    stack: ["React.js", "Node.js", "Express.js", "REST APIs", "Vapi", "Vercel", "Render"],
-    href: "https://ai-voice-assistant-sage.vercel.app/",
-    linkText: "Live Project",
-  },
+ {
+  title: "AI Wiki Quiz Generator",
+  label: "AI / Full Stack",
+  description:
+    "An AI-based quiz generation application that creates quizzes from Wikipedia articles using NLP and the OpenAI API.",
+  points: [
+    "Built an AI-based quiz generation system using Wikipedia article content",
+    "Implemented NLP-based content extraction, preprocessing, and question generation",
+    "Generated 50+ quizzes with relevant and engaging questions",
+    "Developed a responsive frontend with a Python backend for quiz generation",
+  ],
+  stack: ["Python", "NLP", "OpenAI API", "React.js", "JavaScript"],
+  href: "https://github.com/Ashwitha12-star/AI-WikiQuiz.git",
+  linkText: "View on GitHub",
+},
+{
+  title: "Roof Estimator",
+  label: "Full Stack",
+  description:
+    "A full-stack roof estimation application designed to provide quick and configurable roof estimates through a responsive web interface.",
+  points: [
+    "Built a mobile-first roof estimator using React, Vite, Tailwind CSS, Node.js, Express.js, and MongoDB",
+    "Implemented server-side estimation, validation, lead persistence, and configuration management",
+    "Added pricing and question changes that update estimates dynamically",
+    "Developed an authenticated owner panel for managing pricing and configuration",
+  ],
+  stack: [
+    "React.js",
+    "Vite",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+  ],
+  href: "https://github.com/Ashwitha12-star/Roof-estimator.git",
+  linkText: "View on GitHub",
+},
   {
     title: "Emotion Detection from Text",
     label: "Machine Learning",
