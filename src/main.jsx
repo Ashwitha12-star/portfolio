@@ -38,7 +38,7 @@ const projects = [
       "Multilingual support for collection scenarios",
     ],
     stack: ["React.js", "Node.js", "Express.js", "REST APIs", "Vapi", "Vercel", "Render"],
-    href: "https://ai-voice-assistant-cmp8ooyyo-ashwitha12-stars-projects.vercel.app/",
+    href: "https://ai-voice-assistant-sage.vercel.app/",
     linkText: "Live Project",
   },
   {
